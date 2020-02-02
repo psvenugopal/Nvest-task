@@ -1,0 +1,140 @@
+.app_container {
+  background-color: #1c6ab4;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.app_header {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.inner_container {
+  box-shadow: 6px 6px 20px 9px #085287;
+  border-radius: 6px;
+  margin-top: 1.6rem;
+}
+
+.key_container {
+  background-color: white;
+}
+
+.key {
+  height: 100px;
+  border: none;
+  font-weight: 900;
+}
+
+.image_container {
+  width: 47%;
+  text-align: center
+}
+
+.image {
+  margin-top: -6%;
+  margin-left: 8%
+}
+
+.wheel_image {
+  width: 60%;
+  height: 62%;
+  margin: 18% auto 0%;
+}
+
+.wheel_head {
+  color: white;
+  margin-top: 4%;
+}
+
+.badge_text {
+  color: #e4a40f;
+  background-color: white;
+  border: 1px solid #e4a40f;
+  margin: 4% auto;
+  padding: 2%;
+}
+
+.card-text {
+  position: absolute;
+  right: 7%;
+}
+
+.error {
+  width: 31%;
+  margin-top: 6%;
+}
+
+.ticket_container {
+  position: relative;
+  top: 3%;
+  left: 6%;
+}
+
+.ticket_header {
+  color: white;
+  font-size: 24px;
+  margin: 1% auto;
+}
+
+.ticket {
+  width: 100px;
+  background-color: antiquewhite;
+  color: dodgerblue;
+  font-size: larger;
+  margin-bottom: -4%;
+}
+
+.ticket_numbers {
+  margin-top: 11px;
+}
+
+.ticket_card {
+  display: inline-block;
+  margin-right: 2%;
+  margin-bottom: "-4%";
+}
+
+.number {
+  display: inline-block;
+  border: 1px solid blue;
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  font-size: larger;
+  width: 25px;
+  text-align: center;
+  height: 31px;
+  margin-right: 5%
+}
+
+.delete_icon {
+  bottom: 28%;
+  position: relative;
+  left: 100%;
+  top: -34px;
+  display: inline-block;
+  width: 37px;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 30px;
+  font-size: 21px;
+  background-color: white;
+  color: red;
+  box-shadow: 3px 4px 10px #185891;
+}
+
+.rotate {
+  animation: rotation 2s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
